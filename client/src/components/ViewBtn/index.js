@@ -3,17 +3,17 @@ import "./style.css";
 
 // The ...props means, spread all of the passed props onto this element
 // That way we don't have to define them all individually
-function DeleteBtn(props) {
+function ViewBtn(props) {
   return (
     <span
-      className="delete-btn btn btn-danger"
+      className="delete-btn btn btn-info"
       {...props}
       role="button"
       tabIndex="0"
     >
-      Delete
+      View
     </span>
   );
 }
 
-export default DeleteBtn;
+export default ViewBtn;
